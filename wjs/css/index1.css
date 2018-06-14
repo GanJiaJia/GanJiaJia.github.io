@@ -1,0 +1,752 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'wjs-font';
+  src: url("../fonts/wjs-font.eot?pwrakb");
+  src: url("../fonts/wjs-font.eot?pwrakb#iefix") format("embedded-opentype"), url("../fonts/wjs-font.ttf?pwrakb") format("truetype"), url("../fonts/wjs-font.woff?pwrakb") format("woff"), url("../fonts/wjs-font.svg?pwrakb#wjs-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'wjs-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-uniE900:before {
+  content: "\e900";
+}
+
+.icon-uniE901:before {
+  content: "\e901";
+}
+
+.icon-uniE902:before {
+  content: "\e902";
+}
+
+.icon-uniE903:before {
+  content: "\e903";
+}
+
+.icon-uniE904:before {
+  content: "\e904";
+}
+
+.icon-uniE905:before {
+  content: "\e905";
+}
+
+.icon-uniE906:before {
+  content: "\e906";
+}
+
+.icon-uniE907:before {
+  content: "\e907";
+}
+
+.icon-mobilephone:before {
+  content: "\e908";
+}
+
+.icon-telephone:before {
+  content: "\e909";
+}
+
+.icon-info:before {
+  content: "\e90a";
+}
+
+.icon-left-arrow:before {
+  content: "\e90b";
+}
+
+.icon-right-arrow:before {
+  content: "\e90c";
+}
+
+.icon-star:before {
+  content: "\e90d";
+}
+
+.icon-news01:before {
+  content: "\e90e";
+}
+
+.icon-news02:before {
+  content: "\e90f";
+}
+
+.icon-news03:before {
+  content: "\e910";
+}
+
+.icon-news04:before {
+  content: "\e911";
+}
+
+.icon-ser1:before {
+  content: "\e912";
+}
+
+.icon-ser2:before {
+  content: "\e913";
+}
+
+.icon-ser3:before {
+  content: "\e914";
+}
+
+.icon-uniE915:before {
+  content: "\e915";
+}
+
+.icon-uniE916:before {
+  content: "\e916";
+}
+
+.icon-uniE917:before {
+  content: "\e917";
+}
+
+.icon-success:before {
+  content: "\e918";
+}
+
+.icon-uniE919:before {
+  content: "\e919";
+}
+
+.icon-footer_wx_o:before {
+  content: "\e91a";
+}
+
+.icon-footer_wb_o:before {
+  content: "\e91b";
+}
+
+.icon-footer_xl:before {
+  content: "\e91c";
+}
+
+.icon-uniE91D:before {
+  content: "\e91d";
+}
+
+.icon-uniE91E:before {
+  content: "\e91e";
+}
+
+.icon-uniE91F:before {
+  content: "\e91f";
+}
+
+.icon-uniE920:before {
+  content: "\e920";
+}
+
+.icon-uniE921:before {
+  content: "\e921";
+}
+
+.icon-uniE922:before {
+  content: "\e922";
+}
+
+.icon-uniE923:before {
+  content: "\e923";
+}
+
+.icon-uniE924:before {
+  content: "\e924";
+}
+
+.icon-uniE925:before {
+  content: "\e925";
+}
+
+.icon-uniE926:before {
+  content: "\e926";
+}
+
+.icon-uniE927:before {
+  content: "\e927";
+}
+
+.icon-uniE928:before {
+  content: "\e928";
+}
+
+.icon-uniE929:before {
+  content: "\e929";
+}
+
+.icon-uniE92A:before {
+  content: "\e92a";
+}
+
+.icon-360:before {
+  content: "\e92b";
+}
+
+.icon-uniE92C:before {
+  content: "\e92c";
+}
+
+.icon-uniE92D:before {
+  content: "\e92d";
+}
+
+.icon-uniE92E:before {
+  content: "\e92e";
+}
+
+.icon-uniE92F:before {
+  content: "\e92f";
+}
+
+.icon-uniE930:before {
+  content: "\e930";
+}
+
+.icon-uniE931:before {
+  content: "\e931";
+}
+
+.icon-uniE932:before {
+  content: "\e932";
+}
+
+.icon-uniE933:before {
+  content: "\e933";
+}
+
+.icon-uniE934:before {
+  content: "\e934";
+}
+
+.icon-netchina:before {
+  content: "\e935";
+}
+
+.icon-uniE936:before {
+  content: "\e936";
+}
+
+.icon-CFCA:before {
+  content: "\e937";
+}
+
+.icon-uniE938:before {
+  content: "\e938";
+}
+
+.icon-netchina2:before {
+  content: "\e939";
+}
+
+.icon-uniE93A:before {
+  content: "\e93a";
+}
+
+.icon-CFCA2:before {
+  content: "\e93b";
+}
+
+.icon-uniE93C:before {
+  content: "\e93c";
+}
+
+.icon-uniE93D:before {
+  content: "\e93d";
+}
+
+.icon-uniE93E:before {
+  content: "\e93e";
+}
+
+.icon-uniE93F:before {
+  content: "\e93f";
+}
+
+.icon-uniE940:before {
+  content: "\e940";
+}
+
+.icon-uniE941:before {
+  content: "\e941";
+}
+
+.icon-uniE942:before {
+  content: "\e942";
+}
+
+.icon-uniE943:before {
+  content: "\e943";
+}
+
+.icon-uniE944:before {
+  content: "\e944";
+}
+
+.icon-uniE945:before {
+  content: "\e945";
+}
+
+.icon-uniE946:before {
+  content: "\e946";
+}
+
+.icon-uniE947:before {
+  content: "\e947";
+}
+
+.wjsfont-logo::before {
+  content: '\e920';
+}
+
+.wjsfont-name::before {
+  content: '\e921';
+}
+
+.wjsfont-e903::before {
+  content: '\e903';
+}
+
+.wjsfont-e901::before {
+  content: '\e901';
+}
+
+.wjsfont-e904::before {
+  content: '\e904';
+}
+
+.wjsfont-e905::before {
+  content: '\e905';
+}
+
+.wjsfont-e902::before {
+  content: '\e902';
+}
+
+/* 添加 产品列表的 文字样式 */
+.wjsfont-e915::before {
+  content: '\e915';
+}
+
+.wjsfont-new01::before {
+  content: "\e90e";
+}
+
+.wjsfont-new02::before {
+  content: "\e90f";
+}
+
+.wjsfont-new03::before {
+  content: "\e910";
+}
+
+.wjsfont-new04::before {
+  content: "\e911";
+}
+
+/* 网页 最下方的 合作单位 */
+.wjsfont-partner01::before {
+  content: "\e946";
+}
+
+.wjsfont-partner02::before {
+  content: "\e92f";
+}
+
+.wjsfont-partner03::before {
+  content: "\e92e";
+}
+
+.wjsfont-partner04::before {
+  content: "\e92a";
+}
+
+.wjsfont-partner05::before {
+  content: "\e929";
+}
+
+.wjsfont-partner06::before {
+  content: "\e931";
+}
+
+.wjsfont-partner07::before {
+  content: "\e92c";
+}
+
+.wjsfont-partner08::before {
+  content: "\e92b";
+}
+
+.wjsfont-partner09::before {
+  content: "\e92d";
+}
+
+.wjs-header .row > div {
+  border: 1px solid #000;
+  height: 40px;
+  text-align: center;
+}
+.wjs-header .row > div a {
+  line-height: 40px;
+  color: gray;
+}
+
+#wjs-nav {
+  padding: 0px 40px;
+}
+#wjs-nav .nav a {
+  height: 80px;
+  line-height: 80px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: transparent;
+}
+#wjs-nav .nav a:hover {
+  border-bottom: 4px solid red;
+}
+#wjs-nav .navbar-brand {
+  height: 80px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+}
+#wjs-nav .navbar-brand span {
+  font-size: 50px;
+  color: red;
+}
+#wjs-nav .navbar-brand span:nth-chilc(1) {
+  font-size: 50px;
+}
+#wjs-nav .navbar-brand span:nth-child(2) {
+  font-size: 60px;
+  color: #000;
+}
+
+.banner .carousel-inner .item a {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-position: center;
+}
+.banner .carousel-inner .item a:nth-child(1) {
+  height: 410px;
+}
+.banner .carousel-inner .item a:nth-child(2) {
+  width: 100%;
+}
+.banner .carousel-inner .item a:nth-child(2) img {
+  width: 100%;
+}
+.banner .carousel-inner .item a.banner-bg1 {
+  background-image: url("../images/slide_01_2000x410.jpg");
+}
+.banner .carousel-inner .item a.banner-bg2 {
+  background-image: url("../images/slide_02_2000x410.jpg");
+}
+.banner .carousel-inner .item a.banner-bg3 {
+  background-image: url("../images/slide_03_2000x410.jpg");
+}
+.banner .carousel-inner .item a.banner-bg4 {
+  background-image: url("../images/slide_04_2000x410.jpg");
+}
+
+.media {
+  padding: 50px 150px;
+}
+.media .row > div {
+  padding-bottom: 10px;
+}
+.media .row > div a {
+  color: gray;
+  display: block;
+}
+.media .row > div a:hover {
+  color: red;
+}
+.media .media-left span {
+  font-size: 40px;
+}
+.media .media-body {
+  width: auto;
+}
+.media .media-body h4 {
+  font-size: 18px;
+}
+
+.yuyue {
+  height: 60px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 0 80px;
+  line-height: 60px;
+}
+.yuyue a {
+  text-decoration: none;
+}
+.yuyue .pull-left a {
+  color: red;
+  border-bottom: 1px dashed red;
+}
+.yuyue .pull-right a {
+  color: gray;
+}
+
+#comebuy .nav a {
+  color: gray;
+}
+
+#comebuy .nav li a:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#comebuy .nav li.active a {
+  border-color: transparent;
+  border-bottom: 3px solid red;
+}
+
+#buyA {
+  padding-top: 15px;
+}
+
+#buyA .row .buya {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  box-shadow: 4px 4px 6px #aaa;
+  color: gray;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#buyA .buya .left {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#buyA .buya .left .buy-cont {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 5px;
+}
+
+.buya .buy-cont p {
+  font-weight: 900;
+  line-height: 20px;
+}
+
+.buya .buy-cont p:last-child {
+  text-align: right;
+}
+
+.buya .left h3 {
+  margin: 0;
+  text-align: center;
+  padding: 5px 0px;
+  font-size: 20px;
+}
+
+#buyA .buya .right {
+  width: 108px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  border-left: 1px dashed gray;
+  position: relative;
+}
+
+.buya .right::before,
+.buya .right::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.buya .right::before {
+  left: -10px;
+  top: -20px;
+  border-bottom: 1px solid #aaa;
+}
+
+.buya .right::after {
+  left: -10px;
+  bottom: -20px;
+  border-top: 1px solid #aaa;
+}
+
+/*第三张*/
+.ticketC .span-box {
+  padding-top: 0px;
+}
+
+.ticketC .span-box span:first-child {
+  color: green;
+  font-weight: 900;
+  border: 1px solid green;
+  padding: 2px;
+}
+
+.ticketC .span-box span:last-child {
+  color: red;
+  font-weight: 900;
+  border: 1px solid red;
+  padding: 2px;
+}
+
+.ticketC .right h4 span {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+/*第一张*/
+#buyA .row .ticketA {
+  background: #ff0000;
+  color: #fff;
+}
+
+#buyA .row .ticketA .right {
+  border-left-color: #fff;
+}
+
+#buyA .ticketA {
+  position: relative;
+}
+
+#buyA .ticketA::before {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  font-size: 40px;
+  z-index: 998;
+  left: 0;
+  top: 0;
+}
+
+#buyA .ticketC div.progress {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#news {
+  padding-top: 20px;
+}
+#news .nav {
+  border: none;
+}
+#news > .row {
+  border-top: 1px solid gray;
+}
+#news > .row .col-md-2 h3 {
+  font-size: 25px;
+  text-align: center;
+  line-height: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+  position: relative;
+}
+#news > .row .col-md-2 h3::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  right: -8px;
+  bottom: -4px;
+}
+#news .news-nav li {
+  padding: 20px 0px;
+}
+#news .news-nav li a {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: gray;
+  color: white;
+  display: block;
+  font-size: 50px;
+  text-align: center;
+  line-height: 70px;
+  text-decoration: none;
+  padding: 0;
+}
+#news .news-nav li a:hover {
+  background-color: red;
+}
+#news .news-nav li.active a {
+  background-color: red;
+}
+#news .news-cont ul {
+  list-style: none;
+  padding: 15px 0px;
+}
+#news .news-cont ul li {
+  padding: 10px 0px;
+}
+#news .news-cont ul li a {
+  display: block;
+  font-size: 15px;
+  color: gray;
+  position: relative;
+}
+
+.wjs-foot {
+  text-align: center;
+}
+.wjs-foot ul {
+  display: inline-block;
+}
+.wjs-foot ul li {
+  padding: 10px;
+}
+.wjs-foot ul li a {
+  color: gray;
+  text-decoration: none;
+  font-size: 100px;
+}
+
+/* 导入 字体文件 */
+@font-face {
+  font-family: 'wjsfont';
+  src: url("../fonts/MiFie-Web-Font.eot");
+  src: url("../fonts/MiFie-Web-Font.eot?#iefix") format("embedded-opentype"), url("../fonts/MiFie-Web-Font.woff") format("woff"), url("../fonts/MiFie-Web-Font.ttf") format("truetype"), url("../fonts/MiFie-Web-Font.svg") format("svg");
+}
+ul,
+ol,
+li {
+  list-style: none;
+}

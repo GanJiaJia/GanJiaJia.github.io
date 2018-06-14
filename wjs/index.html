@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <!-- ie让页面 按照edge这个版本 来渲染 主要针对的是ie浏览器  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 视口属性 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>模板页</title>
+
+    <!-- Bootstrap -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 样式 -->
+    <link rel="stylesheet" type="text/css" href="css/index1.css" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- 条件注释 小于 ie9 -->
+    <!--html5shiv html5 新语义标签-->
+    <!-- respond 媒体查询 在 ie8及以下 是不支持的  
+  
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- 使用栅格 搭建布局 
+    visible-lg 只在 大屏幕显示
+  -->
+    <div class="container-fluid wjs-header visible-lg">
+        <div class="row">
+            <div class="col-lg-2">
+                <a href="javascript:void(0)"><span class='
+            glyphicon glyphicon-phone'></span>手机微金所<span class='glyphicon glyphicon-menu-down'></span></a>
+            </div>
+            <div class="col-lg-5">
+                <a href="javascript:void(0)"><span class='glyphicon glyphicon-phone-alt'></span>4006-89-4006（服务时间：9:00-21:00)</a>
+            </div>
+            <div class="col-lg-2">
+                <a href="javascript:void(0)">常见问题</a> &nbsp; &nbsp;
+                <a href="javascript:void(0)">财富戳我</a>
+            </div>
+            <div class="col-lg-3">
+                <button href="javascript:void(0)" class="btn btn-danger">常见问题</button> &nbsp; &nbsp;
+                <a href="javascript:void(0)">登录</a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-default" id="wjs-nav">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+             </button>
+                <a class="navbar-brand" href="#">
+                    <span class="icon-uniE920"></span>
+                    <span class="icon-uniE921"></span> &nbsp; &nbsp;我要发财
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">我要西兰花<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">我要西兰花</a></li>
+                    <li><a href="#">我要西兰花</a></li>
+                    <li><a href="#">我要西兰花</a></li>
+                    <li><a href="#">我要西兰花</a></li>
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">西兰花</a></li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div id="carousel-example-generic" class="banner carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <a href="javascript:void(0)" class="banner-bg1 hidden-xs">
+                </a>
+                <a href="javascript:void(0)" class="visible-xs">
+                    <img src="images/slide_01_640x340.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="javascript:void(0)" class="banner-bg2 hidden-xs">
+
+                </a>
+                <a href="javascript:void(0)" class="visible-xs">
+                    <img src="images/slide_02_640x340.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="javascript:void(0)" class="banner-bg3 hidden-xs">
+                </a>
+                <a href="javascript:void(0)" class="visible-xs">
+                    <img src="images/slide_03_640x340.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="javascript:void(0)" class="banner-bg4 hidden-xs">
+                </a>
+                <a href="javascript:void(0)" class="visible-xs">
+                    <img src="images/slide_04_640x340.jpg" alt="">
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <div class="media container-fluid hidden-xs">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="javascript:void(0)">
+                    <div class="media-left">
+                        <span class="glyphicon glyphicon-lamp"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">古城里长桥上</h4>
+                        最浪漫不过与你并肩看夕阳
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="javascript:void(0)">
+                    <div class="media-left">
+                        <span class="glyphicon glyphicon-lamp"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">古城里长桥上</h4>
+                        最浪漫不过与你并肩看夕阳
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="javascript:void(0)">
+                    <div class="media-left">
+                        <span class="glyphicon glyphicon-lamp"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">古城里长桥上</h4>
+                        最浪漫不过与你并肩看夕阳
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="javascript:void(0)">
+                    <div class="media-left">
+                        <span class="glyphicon glyphicon-lamp"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">古城里长桥上</h4>
+                        最浪漫不过与你并肩看夕阳
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="javascript:void(0)">
+                    <div class="media-left">
+                        <span class="glyphicon glyphicon-lamp"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">古城里长桥上</h4>
+                        最浪漫不过与你并肩看夕阳
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="javascript:void(0)">
+                    <div class="media-left">
+                        <span class="glyphicon glyphicon-lamp"></span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">古城里长桥上</h4>
+                        最浪漫不过与你并肩看夕阳
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="yuyue hidden-xs">
+        <div class="pull-left">
+            <span class="glyphicon glyphicon-time"></span> 现在有 273 人在排队，累计预约交易成功 7571 次。 什么是预约投标？
+            <a href="javascript:void(0)">立即预约</a>
+        </div>
+        <div class="pull-right hidden-sm hidden-xs">
+            <span class="glyphicon glyphicon-camera"></span>
+            <a href="javascript:void(0)">微金所宣传片</a>
+        </div>
+    </div>
+
+    <div id="comebuy">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#buyA" aria-controls="home" role="tab" data-toggle="tab">特别推荐</a></li>
+            <li role="presentation"><a href="#buyB" aria-controls="profile" role="tab" data-toggle="tab">买不买</a></li>
+            <li role="presentation"><a href="#buyC" aria-controls="messages" role="tab" data-toggle="tab">我们不买</a></li>
+            <li role="presentation"><a href="#buyD" aria-controls="settings" role="tab" data-toggle="tab">真的不买</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="buyA">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-md-4 col-sm-6">
+                            <a href="javascript:void(0)" class="buya ticketA icon-uniE915">
+
+                                <div class="left">
+                                    <h3>新手过来玩</h3>
+                                    <div class="buy-cont">
+                                        <p>起投金额<br> 100w <br> 借款期限 <br> 100天</p>
+                                        <p>已投标人数 <br>22人 <br>已投标金额 <br>1个亿</p>
+                                    </div>
+
+                                </div>
+                                <div class="right">
+                                    <h4>8%</h4>
+                                    <p>年利率</p>
+                                </div>
+                            </a>
+
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <a href="javascript:void(0)" class="buya ticketB">
+                                <div class="left">
+                                    <h3>新手过来玩</h3>
+                                    <div class="buy-cont">
+                                        <p>起投111<br> 100w <br> 借款期限 <br> 100天</p>
+                                        <p>已投111 <br>22人 <br>已投标金额 <br>1个亿</p>
+                                    </div>
+
+                                </div>
+                                <div class="right">
+                                    <h4>8%</h4>
+                                    <p>年利率</p>
+                                </div>
+                            </a>
+
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <a href="javascript:void(0)" class="buya ticketC">
+                                <div class="left">
+                                    <h3>新手过来玩</h3>
+                                    <div class="buy-cont">
+                                        <p>起投金额<br> 100w <br> 借款期限 <br> 100天</p>
+                                        <div class="buy-cont-right">
+                                            <p>已投标人数 <br>22人 <br>已投标金额 <br></p>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                                    <span class="sr-only"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="right">
+                                    <div class="span-box">
+                                        <span>宝</span>
+                                        <span>贝</span>
+                                    </div>
+                                    <h4><span>8</span>%</h4>
+                                    <p>年利率</p>
+                                </div>
+                            </a>
+
+                        </div>
+
+
+
+
+                        <div class="col-md-4 col-sm-6">
+                            <a href="javascript:void(0)" class="buya ticketD">
+                                <div class="left">
+                                    <h3>新手过来玩</h3>
+                                    <div class="buy-cont">
+                                        <p>起投金额<br> 100w <br> 借款期限 <br> 100天</p>
+                                        <p>已投标人数 <br>22人 <br>已投标金额 <br>1个亿</p>
+                                    </div>
+
+                                </div>
+                                <div class="right">
+                                    <h4>8%</h4>
+                                    <p>年利率</p>
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div role="tabpanel" class="tab-pane" id="buyB">2</div>
+            <div role="tabpanel" class="tab-pane" id="buyC">3</div>
+            <div role="tabpanel" class="tab-pane" id="buyD">
+                4
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid" id="news">
+        <div class="row ">
+            <div class="col-md-3"></div>
+            <div class="col-md-2">
+                <h3>全部新闻</h3>
+            </div>
+            <div class="col-md-2">
+                <div class="container-fluid news-nav">
+
+                    <ul class="nav nav-tabs row" role="tablist">
+                        <li role="presentation" class="active col-md-12 col-sm-3 col-xs-3">
+                            <a class="icon-news01" href="#newsA" aria-controls="home" role="tab" data-toggle="tab"></a>
+                        </li>
+
+                        <li role="presentation" class=" col-md-12 col-sm-3 col-xs-3">
+                            <a href="#newsB" class="icon-news02" aria-controls="profile" role="tab" data-toggle="tab"></a>
+                        </li>
+
+                        <li role="presentation" class="col-md-12 col-sm-3 col-xs-3">
+                            <a href="#newsC" class="icon-news03" aria-controls="messages" role="tab" data-toggle="tab"></a>
+                        </li>
+
+                        <li role="presentation" class=" col-md-12 col-sm-3 col-xs-3">
+                            <a href="#newsD" class="icon-news04" aria-controls="settings" role="tab" data-toggle="tab"></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <div class="col-md-5 news-cont">
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="newsA">
+                        <ul>
+                            <li><a href="JavaScriptvo:void(0)">2016-9-19 【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="JavaScriptvo:void(0)">2016-9-19 【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="JavaScriptvo:void(0)">2016-9-19 【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="JavaScriptvo:void(0)">2016-9-19 【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="JavaScriptvo:void(0)">2016-9-19 【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="JavaScriptvo:void(0)">2016-9-19 【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="JavaScriptvo:void(0)">2016-9-19 【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="JavaScriptvo:void(0)">2016-9-19 【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="JavaScriptvo:void(0)">2016-9-19 【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                            <li><a href="JavaScriptvo:void(0)">2016-9-19 【微还款】一周还款公告2016年1月18日-1月24日</a></li>
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="newsB">2</div>
+                    <div role="tabpanel" class="tab-pane" id="newsC">3</div>
+                    <div role="tabpanel" class="tab-pane" id="newsD">4</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid wjs-foot">
+        <h3>跟他们都合作过O(∩_∩)O</h3>
+
+        <ul class="clearfix">
+            <li class="pull-left">
+                <a href="javascript:void(0)" class="icon-uniE92A"></a>
+            </li>
+            <li class="pull-left">
+                <a href="javascript:void(0)" class="icon-360"></a>
+            </li>
+            <li class="pull-left">
+                <a href="javascript:void(0)" class="icon-uniE92C"></a>
+            </li>
+            <li class="pull-left">
+                <a href="javascript:void(0)" class="icon-uniE92D"></a>
+            </li>
+            <li class="pull-left">
+                <a href="javascript:void(0)" class="icon-uniE92E"></a>
+            </li>
+            <li class="pull-left">
+                <a href="javascript:void(0)" class="icon-uniE92F"></a>
+            </li>
+            <li class="pull-left">
+                <a href="javascript:void(0)" class="icon-uniE930"></a>
+            </li>
+            <li class="pull-left">
+                <a href="javascript:void(0)" class="icon-uniE931"></a>
+            </li>
+            <li class="pull-left">
+                <a href="javascript:void(0)" class="icon-uniE933"></a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="lib/bootstrap/js/jquery-1.12.4.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>

@@ -1,0 +1,245 @@
+// 先导入那个 
+@import 'normalize.scss';
+// 我们在 base中 可能回去 改写 normalize中的一些样式 
+@import 'base.scss';
+// 使用变量 来保存 京东红
+$jdRed:rgb(201, 21, 35);
+// 首页的布局效果
+// 顶部的搜索栏  
+.jd-layout {
+    // 设置最小宽度
+    // 避免 小屏幕手机 显示问题 一般 设置的是 280px 320px
+    min-width: 320px; // 能够被压缩 直到 设置的这个值为止 
+    // 设置最大宽度 一般 640 或者 750px
+    // 可选的 
+    // 工作时 根据需要进行设置即可
+    max-width: 640px; // 能够放大 直到 设置的这个值为止
+    margin: 0 auto;
+    // 搜索栏 
+    header {
+        height: 40px;
+        background-color: rgba(201, 21, 35, 0.1); // 设置定位 固定在最上面
+        position: fixed;
+        padding: 0 60px;
+        z-index: 998;
+        width: 100%;
+        max-width: 640px;
+        // left:0px;
+        a {
+            color: white;
+            position: absolute;
+            height: 40px;
+            top: 0px;
+            line-height: 40px;
+            padding: 0 10px; // 第一个 靠右 
+            &:first-child {
+                left: 5px;
+                background: url('../images/sprites.png')no-repeat -3px -110px /200px 200px;
+                width: 53px;
+                display: block;
+                height: 22px;
+                top: (40px - 22px)/2;
+            } // 最后一个 靠右 
+            &:last-child {
+                right: 0px;
+            }
+        }
+        input {
+            height: 30px;
+            width: 100%;
+            border-radius: 30px;
+            margin-top: 5px;
+            padding-left: 10px;
+        }
+    } // 轮播图区域
+    .banner {
+        overflow: hidden;
+        position: relative;
+        .images {
+            // 横着要可以容纳 8张图片
+            // 每一张 都是 一倍的 屏幕宽度
+            width: 1000%;
+            transform: translateX(-10%);
+            li {
+                float: left; // 父元素 宽度的 1/8; 
+                width: 10%;
+                a {
+                    width: 100%;
+                    display: block;
+                    img {
+                        width: 100%;
+                        display: block;
+                    }
+                }
+            }
+        } // 索引的 li标签 
+        .index {
+            position: absolute;
+            bottom: 5px;
+            left: 50%;
+            transform: translateX(-50%);
+            li {
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                border: 1px solid white;
+                margin-left: 5px; // 有这个class时 高亮  
+                &.current {
+                    background-color: white;
+                }
+            }
+        }
+    } //  导航区域 
+    nav {
+        ul {
+            display: flex; // 开启换行 
+            flex-wrap: wrap;
+            li {
+                width: 25%;
+                padding: 5px 0;
+                a {
+                    display: block;
+                    width: 100%;
+                    img {
+                        display: block;
+                        width: 60%;
+                        margin: 0 auto;
+                    }
+                    p {
+                        text-align: center;
+                        color: gray;
+                        padding: 5px 0;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    } //  主要内容区域
+    .main {
+        background-color: #F5F5F5;
+        padding: 10px 5px 0;
+        section {
+            // 最起码 多高 可以被撑开
+            // 如果 内容 比 100px要大 是能够被撑开的
+            min-height: 100px;
+            background-color: white;
+            margin-bottom: 10px;
+            .top {
+                height: 32px;
+                border-bottom: 1px solid #E0E0E0;
+                h3 {
+                    font-size: 16px;
+                    color: gray;
+                    line-height: 32px;
+                    padding-left: 15px;
+                    font-weight: normal;
+                    position: relative;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        background-color: $jdRed;
+                        height: 14px;
+                        width: 3px;
+                        top: (32px-14px)/2;
+                        left: 5px;
+                    }
+                }
+            }
+            .bottom {}
+        } // 秒杀区域 
+        section.second-kill {
+            .bottom {
+                ul {
+                    // 开启弹性布局
+                    display: flex;
+                    padding-top: 10px;
+                    li {
+                        // 由于 都是1 那么 会均分的主轴方向上的尺寸 这里是宽度 
+                        flex: 1;
+                        a {
+                            display: block;
+                            width: 100%;
+                            img {
+                                display: block;
+                                width: 60px;
+                                margin: 0 auto;
+                            }
+                        }
+                        p {
+                            text-align: center;
+                            font-size: 12px;
+                            padding: 5px 0;
+                        } // 只考虑 p标签的 第一个
+                        // first-child 必须是第一个子元素 
+                        p:first-of-type {
+                            color: $jdRed;
+                        }
+                        p:last-of-type {
+                            color: gray;
+                            text-decoration: line-through;
+                        }
+                    } // 为中间的li标签 设置 两边的 边框
+                    li:nth-child(2) {
+                        a {
+                            border-right: 1px solid gray;
+                            border-left: 1px solid gray;
+                        }
+                    }
+                }
+            } // 秒杀区域顶部 
+            .top {
+                display: flex; // 开启弹性布局
+                justify-content: space-between; // 内容两边定格
+                padding: 0 10px;
+                .top-left {
+                    span {
+                        line-height: 32px;
+                        padding: 0 5px;
+                    }
+                    span:nth-child(2) {
+                        color: $jdRed;
+                    } // 设置弹性布局 让内容 一行排列
+                    display: flex;
+                    ul {
+                        display: flex;
+                        padding-top: (32px-14px)/2;
+                        li {
+                            background-color: black;
+                            color: white;
+                            height: 14px;
+                            width: 14px;
+                            line-height: 14px;
+                            text-align: center;
+                            font-size: 12px;
+                            margin-right: 2px;
+                        }
+                        li:nth-child(3n) {
+                            background-color: white;
+                            color: black;
+                            width: 5px; // margin: 0;
+                        }
+                    }
+                }
+                .top-right {
+                    a {
+                        color: gray;
+                        line-height: 32px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        } // 秒杀区域 之外的 内容
+        section {
+            .bottom {
+                a {
+                    width: 50%;
+                    display: block;
+                    img {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

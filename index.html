@@ -1,12 +1,655 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta content="甘佳的web前端工程师个人简历，前端学习，前端开发" name="description">
+    <meta content="web前端，F2E，web前端个人简历，前端开发" name="keywords">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial = 1.0, maximum-scale=1.0,minimum-scale=1.0">
+    <link rel="icon" href="image/GitHub.jpg">
+
+    <title>web前端个人简历</title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/phone.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="" id="mycss">
+    <script src="js/iconfont.js"></script>
+
+    <style>
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>我的个人页面</h1>
+
+    <div class="gt_logo">
+        <a href="https://github.com/GanJiaJia">
+            <img src="image/GitHub.jpg" alt="github头像">
+        </a>
+    </div>
+
+    <div id="language">
+        <div class="onOff clearfix">
+            <span class="ch current fl ">中</span>
+            <span class="en fr ">英</span>
+        </div>
+    </div>
+
+    <div class="elevator">
+        <ul id="menu">
+            <li data-menuanchor="Home">
+                <span></span>
+                <a href="#Home" class="current animation" id="ele_a1">
+
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-zhuye"></use>
+                    </svg>
+                </a>
+            </li>
+            <li data-menuanchor="AboutMe">
+                <span></span>
+                <a href="#Me" id="ele_a2">
+
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-geren-copy"></use>
+                    </svg>
+                </a>
+            </li>
+            <li data-menuanchor="Skill">
+                <span></span>
+                <a href="#Skill" id="ele_a3">
+
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-daima"></use>
+                    </svg>
+                </a>
+            </li>
+            <li data-menuanchor="Experience">
+                <span></span>
+                <a href="#Experience" id="ele_a4">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weixing"></use>
+                    </svg>
+                </a>
+            </li>
+
+            <li data-menuanchor="Sample">
+                <span></span>
+                <a href="#Sample" id="ele_a5">
+
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-shahuazuopinku"></use>
+                    </svg>
+                </a>
+            </li>
+            <li data-menuanchor="Contact">
+                <span></span>
+                <a href="#Contact" id="ele_a6">
+
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-iconset0336"></use>
+                    </svg>
+                </a>
+            </li>
+
+
+        </ul>
+    </div>
+    <div class="arrow">
+        <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-jiantou-copy"></use>
+
+    </div>
+    <div id="my_page">
+        <div class="section pageA">
+            <!--照片和感言-->
+            <div class="show_me">
+                <div class="_photo ">
+                    <img src="image/me.jpg" alt="">
+                </div>
+                <div class="text ">
+                    <h3>生活是一种绵延不绝的渴望，
+                        <p>渴望不断上升，变得更伟大而高贵。
+                        </p>
+                    </h3>
+                </div>
+                <p class="p1">我叫甘佳</p>
+                <p class="p2">一名前端研发工程师</p>
+                <p class="p3">ganjia1995@163.com</p>
+            </div>
+        </div>
+        <div class="section pageB">
+            <div class="about_me">
+                关于我
+            </div>
+            <div class="info-box">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i> 
+                                <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-nianling"></use>
+                                </svg>
+        </i>
+        </a><span>年龄/22岁</span></li>
+        <li>
+            <a href="javascript:void(0)">
+                <i>
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-xueli1"></use>
+                                        </svg>
+                                                            </i>
+            </a><span>学历/本科</span></li>
+        </ul>
+        <ul>
+            <li>
+                <a href="javascript:void(0)">
+                    <i>
+                                                                        <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-zuobiao1"></use>
+                                            </svg>
+                                            </i>
+
+                </a><span>坐标/深圳</span>
+
+            </li>
+            <li>
+                <a href="javascript:void(0)">
+                    <i>
+                                                <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-zhuangtai"></use>
+                                                </svg>
+                                            </i>
+
+                </a><span>状态/离职</span>
+
+            </li>
+        </ul>
+
+    </div>
+    <div class="text">
+        <p>一年半半全职前端开发经验</p>
+
+        <p>熟悉自动化,模块化开发之道</p>
+
+        <p>高效的自学能力,能独立分析解决问题</p>
+
+        <p>强烈的自我驱动力,代码强迫症患者</p>
+    </div>
+    </div>
+    <div class="section pageC">
+        <div class="title">技能栈</div>
+        <div class="content">
+            <div class="skill-circle">
+                <ul class="out-circle">
+                    <li>gulp</li>
+                    <li>angular</li>
+                    <li>webpack</li>
+                    <li>less</li>
+                    <li>git</li>
+                    <li>nodejs</li>
+                    <li>cordova</li>
+                    <li>react</li>
+
+                    <ul class="inner-circle">
+                        <li>es6</li>
+                        <li>vue</li>
+                        <li>ng2</li>
+                        <li>fp</li>
+                    </ul>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="text">
+            <p>熟练使用angularJs1.x及各种类库的指令封装</p>
+
+            <p>常驻PC/APP/微信三平台前端研发</p>
+            <p>擅长组件/插件开发，能脱离库书写JS代码</p>
+
+            <p>编码常思其健壮性，扩展性，维护性</p>
+
+
+        </div>
+    </div>
+    <div class="section pageD">
+        <div id="exp1">
+            <div class="title">
+                成长经历
+            </div>
+            <div class="wrap wrap2">
+                <div class="content">
+                    <div class="banner">
+                        <div class="left">
+                            <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-JS"></use>
+                                </svg>
+                        </div>
+                        <div class="right">
+                            <div class="main">
+                                <h3>珠海慕容科技有限公司</h3>
+                                <p>2016年7月~2017年6月</p>
+                                <p>
+
+                                    <<span>企业站页面开发</span>>
+                                </p>
+                                <p>"H5,C3,js,jQuery,React,vue.js,nonde.js等"</p>
+                                <ul>
+                                    <li>负责网站后台维护</li>
+                                    <li>负责pc、移动端静态页开发</li>
+                                    <li>负责企业站页面特效编写</li>
+                                    <li>工作之余学习vue,react,ng2,体会函数式编程思想</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap wrap1">
+                <div class="content">
+                    <div class="banner">
+                        <div class="left">
+                            <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-h5"></use>
+                                </svg>
+                        </div>
+                        <div class="right">
+                            <div class="main">
+                                <h3>珠海慕容科技有限公司</h3>
+                                <p>2015年10月~2016年7月</p>
+                                <p>
+
+                                    <<span>网页开发实习生</span>>
+                                </p>
+                                <p>"H5,C3,js,jQuery，Sass等"</p>
+                                <ul>
+                                    <li>负责网站后台维护，微博、微信等新媒体营销和推广</li>
+                                    <li>负责页面的切图和布局工作</li>
+                                    <li>获得最佳新人奖</li>
+                                    <li>同期工作之余开始系统性的自学web前端各项技术</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="selec">
+                <span></span>
+                <span class="current"></span>
+            </div>
+        </div>
+        <div id="exp2" class="myexp">
+            <div class="subject">
+                成长经历
+            </div>
+
+            <div class="swiper-container1 exp-cont">
+                <div class="swiper-wrapper ">
+
+                    <div class="swiper-slide exp-2016 expcont">
+                        <div class="banner">
+                            <div class="left">
+                                <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-JS"></use>
+                                    </svg>
+                            </div>
+                            <div class="right">
+                                <div class="main">
+                                    <h3>珠海慕容科技有限公司</h3>
+                                    <p>2016年7月~2017年6月</p>
+                                    <p>
+
+                                        <<span>企业站页面开发</span>>
+                                    </p>
+                                    <p>"H5,C3,js,jQuery,React,vue.js,nonde.js等"</p>
+                                    <ul>
+                                        <li>负责网站后台维护</li>
+                                        <li>负责pc、移动端静态页开发</li>
+                                        <li>负责企业站页面特效编写</li>
+                                        <li>工作之余学习vue,react,ng2,体会函数式编程思想</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide exp-2015">
+
+
+                        <div class="banner">
+                            <div class="left">
+                                <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-h5"></use>
+                                    </svg>
+                            </div>
+                            <div class="right">
+                                <div class="main">
+                                    <h3>珠海慕容科技有限公司</h3>
+                                    <p>2015年10月~2016年7月</p>
+                                    <p>
+
+                                        <<span>网页开发实习生</span>>
+                                    </p>
+                                    <p>"H5,C3,js,jQuery，Sass等"</p>
+                                    <ul>
+                                        <li>负责网站后台维护，微博、微信等新媒体营销和推广</li>
+                                        <li>负责页面的切图和布局工作</li>
+                                        <li>获得最佳新人奖</li>
+                                        <li>同期工作之余开始系统性的自学web前端各项技术</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+
+            </div>
+
+
+
+            <p class="exp">大三在校时，开始自学前端</p>
+        </div>
+
+
+
+    </div>
+    <div class="section pageE">
+        <div id="zuopin1">
+            <div class="title">作品集</div>
+            <div class="accordion">
+
+                <div>
+
+
+                    <a href="http://www.rongcloud.cn "><img src="image/rongclund.jpg" alt="融云移动端"></a>
+                    <i>融云移动端页面企业类网站开发，兼容IE8+,
+                        <br>
+                        适配全移动机型，
+                        具有良好的兼容性，扩展性。
+                    </i>
+                </div>
+
+
+                <div>
+                    <a href="http://www.xin-home.com/"><img src="image/jialida.jpg" alt="嘉利达"></a>
+                    <i>
+                        珠海嘉利达五金普通类企业网站开发，兼容IE8+
+                        <br>
+                       根据客户群体的习性进行详细分析策划，
+                        <br>
+                        制定出一套适合企业自身的网站建设的设计风格方案。
+                    </i>
+                </div>
+
+
+                <div>
+
+                    <a href="http://www.zhtaifeng.cn/"><img src="image/taifeng.jpg" alt="泰丰"></a>
+                    <i>
+                         珠海嘉泰丰装饰公司普通类企业网站开发，兼容IE8+
+                        <br>
+                       根据客户群体的习性进行详细分析策划，
+                        <br>
+                        制定出一套适合企业自身的网站建设的设计风格方案。
+                    </i>
+
+                </div>
+
+
+                <div>
+
+                    <a href="javascript:void(0)"><img src="image/aiqiyi.jpg" alt="仿爱奇艺"></a>
+                    <i>
+                        自己仿的爱奇艺官网
+                        <br>
+                        前端的学习需要持之以恒
+                        <br>
+                        动手勤快联系才能进步更快
+                    </i>
+
+                </div>
+
+
+                <div>
+
+                    <a href="javascript:void(0)"><img src="image/qqmusic.jpg" alt="仿qq音乐"></a>
+                    <i>
+                         自己仿的qq音乐官网
+                        <br>
+                        前端的学习需要持之以恒
+                        <br>
+                        动手勤快联系才能进步更快
+                    </i>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper-container2" id="zuopin2">
+            <div class="subject">作品集</div>
+            <div class="swiper-wrapper items">
+                <div class="swiper-slide item1">
+                    <a href="waimai/index.html" target="_blank">
+                        <div class="it-top it-top1"></div>
+                        <div class="it-bot it-bot1">
+                            <p>仿百度外卖移动端宣传页</p>
+                            <p>移动端H5、C3动画特效</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide item2">
+                    <a href="jd/index.html" target="_blank">
+                        <div class="it-top it-top2"></div>
+                        <div class="it-bot it-bot2">
+                            <p>仿京东外卖移动端首页</p>
+                            <p>适配大部分移动端分辨率</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide item3">
+                    <a href="wjs/index.html" target="_blank">
+                        <div class="it-top it-top3"></div>
+                        <div class="it-bot it-bot3">
+                            <p>bootstrap响应式微金所首页</p>
+                            <p>自适应pc端与移动端</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide item4">
+                    <a href="javascript:void(0)">
+                        <div class="it-top it-top4"></div>
+                        <div class="it-bot it-bot4">
+                            <p>仿pc端qq空间官网首页</p>
+                            <p>原生js写的pc端特效</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide item5">
+                    <a href="javascript:void(0)">
+                        <div class="it-top it-top5"></div>
+                        <div class="it-bot it-bot5">
+                            <p>珠海泰丰装饰公司首页</p>
+                            <p>普通pc端页面</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+    <div class="section pageF">
+        <div class="content">
+            <div class="title">
+                联系我
+            </div>
+            <div class="main">
+                <div class="hope">
+                    <span>灵感</span>
+                    <span>代码</span>
+                    <span>梦想</span>
+                    <span>未来</span>
+                </div>
+                <div class="text">
+                    <p>注重效率，偏爱敏捷开发</p>
+                    <p>喜欢尝试，期待新鲜事物</p>
+                    <p>前端即兴趣，兴趣即未来</p>
+                    <p>行路有良友，便是捷径</p>
+                    <p>带上我吧，一起看到更大的世界</p>
+
+                </div>
+                <div class="logo">
+                    <a href="https://github.com/GanJiaJia">
+                        <i>
+
+                        <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                            </svg>
+                           
+                            
+                         </i>
+
+                    </a>
+                    <a href="https://segmentfault.com/u/monster_590726a555563">
+                        <i>
+                            <svg class="icon" aria-hidden="true">
+                        <use xlink:href=" #icon-iconsf"></use>
+                        </svg>
+                        </i>
+                    </a>
+
+                    <a href="http://blog.csdn.net/jiajiagan">
+                        <i>
+                            <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-boke"></use>
+                            </svg>
+                         </i>
+
+                    </a>
+
+
+                    <a href="https://www.zhihu.com/people/ai-chi-fan-qie-de-gan-jia-jia-c">
+                        <i>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-zhihu"></use>
+                            </svg>
+                         </i>
+
+                    </a>
+                    <a href="http://weibo.com/2795114750/profile?topnav=1&wvr=6">
+                        <i>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-xinlang01"></use>
+                            </svg>
+                         </i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer">
+                <p> 学习本简历制作（前端）请在PC端按F12</p>
+                <p>前端的学习需要持之以恒，我们一起努力吧！</p>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
 </body>
+
+
 </html>
+
+<script src='js/jquery-1.12.4.min.js'></script>
+<script src='js/jquery.fullpage.min.js'></script>
+<script src="js/swiper.min.js">
+</script>
+<script src="js/index.min.js"></script>
+<script>
+    $(function() {
+        var swiper1 = new Swiper('.swiper-container1', {
+            pagination: '.swiper-pagination',
+            effect: 'flip',
+            grabCursor: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev'
+        });
+
+        var swiper2 = new Swiper('.swiper-container2', {
+            pagination: '.swiper-pagination',
+            effect: 'cube',
+            grabCursor: true,
+            loop: true,
+            cube: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94
+            }
+        });
+
+
+        autoScreen();
+        window.onresize = function() {
+            autoScreen();
+
+        }
+
+        function autoScreen() {
+            if (myClient().width <= 768) {
+                document.querySelector('#mycss').href = "css/phone.css";
+                document.querySelector('#exp1').style.display = 'none';
+                document.querySelector('#exp2').style.display = 'block';
+                document.querySelector('#zuopin1').style.display = 'none';
+                document.querySelector('#zuopin2').style.display = 'block';
+                console.log(myClient().width);
+
+            } else {
+                document.querySelector('#mycss').href = "css/index.css";
+                document.querySelector('#exp1').style.display = 'block';
+                document.querySelector('#exp2').style.display = 'none';
+                document.querySelector('#zuopin1').style.display = 'block';
+                document.querySelector('#zuopin2').style.display = 'none';
+
+
+            }
+        }
+
+        function myClient() {
+            return {
+                width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth ||
+                    0,
+                height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight ||
+                    0
+            };
+        }
+    })
+</script>

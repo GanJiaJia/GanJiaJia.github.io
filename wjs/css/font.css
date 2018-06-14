@@ -1,0 +1,305 @@
+@font-face {
+  font-family: 'wjs-font';
+  src: url("../fonts/wjs-font.eot?pwrakb");
+  src: url("../fonts/wjs-font.eot?pwrakb#iefix") format("embedded-opentype"), url("../fonts/wjs-font.ttf?pwrakb") format("truetype"), url("../fonts/wjs-font.woff?pwrakb") format("woff"), url("../fonts/wjs-font.svg?pwrakb#wjs-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'wjs-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-uniE900:before {
+  content: "\e900";
+}
+
+.icon-uniE901:before {
+  content: "\e901";
+}
+
+.icon-uniE902:before {
+  content: "\e902";
+}
+
+.icon-uniE903:before {
+  content: "\e903";
+}
+
+.icon-uniE904:before {
+  content: "\e904";
+}
+
+.icon-uniE905:before {
+  content: "\e905";
+}
+
+.icon-uniE906:before {
+  content: "\e906";
+}
+
+.icon-uniE907:before {
+  content: "\e907";
+}
+
+.icon-mobilephone:before {
+  content: "\e908";
+}
+
+.icon-telephone:before {
+  content: "\e909";
+}
+
+.icon-info:before {
+  content: "\e90a";
+}
+
+.icon-left-arrow:before {
+  content: "\e90b";
+}
+
+.icon-right-arrow:before {
+  content: "\e90c";
+}
+
+.icon-star:before {
+  content: "\e90d";
+}
+
+.icon-news01:before {
+  content: "\e90e";
+}
+
+.icon-news02:before {
+  content: "\e90f";
+}
+
+.icon-news03:before {
+  content: "\e910";
+}
+
+.icon-news04:before {
+  content: "\e911";
+}
+
+.icon-ser1:before {
+  content: "\e912";
+}
+
+.icon-ser2:before {
+  content: "\e913";
+}
+
+.icon-ser3:before {
+  content: "\e914";
+}
+
+.icon-uniE915:before {
+  content: "\e915";
+}
+
+.icon-uniE916:before {
+  content: "\e916";
+}
+
+.icon-uniE917:before {
+  content: "\e917";
+}
+
+.icon-success:before {
+  content: "\e918";
+}
+
+.icon-uniE919:before {
+  content: "\e919";
+}
+
+.icon-footer_wx_o:before {
+  content: "\e91a";
+}
+
+.icon-footer_wb_o:before {
+  content: "\e91b";
+}
+
+.icon-footer_xl:before {
+  content: "\e91c";
+}
+
+.icon-uniE91D:before {
+  content: "\e91d";
+}
+
+.icon-uniE91E:before {
+  content: "\e91e";
+}
+
+.icon-uniE91F:before {
+  content: "\e91f";
+}
+
+.icon-uniE920:before {
+  content: "\e920";
+}
+
+.icon-uniE921:before {
+  content: "\e921";
+}
+
+.icon-uniE922:before {
+  content: "\e922";
+}
+
+.icon-uniE923:before {
+  content: "\e923";
+}
+
+.icon-uniE924:before {
+  content: "\e924";
+}
+
+.icon-uniE925:before {
+  content: "\e925";
+}
+
+.icon-uniE926:before {
+  content: "\e926";
+}
+
+.icon-uniE927:before {
+  content: "\e927";
+}
+
+.icon-uniE928:before {
+  content: "\e928";
+}
+
+.icon-uniE929:before {
+  content: "\e929";
+}
+
+.icon-uniE92A:before {
+  content: "\e92a";
+}
+
+.icon-360:before {
+  content: "\e92b";
+}
+
+.icon-uniE92C:before {
+  content: "\e92c";
+}
+
+.icon-uniE92D:before {
+  content: "\e92d";
+}
+
+.icon-uniE92E:before {
+  content: "\e92e";
+}
+
+.icon-uniE92F:before {
+  content: "\e92f";
+}
+
+.icon-uniE930:before {
+  content: "\e930";
+}
+
+.icon-uniE931:before {
+  content: "\e931";
+}
+
+.icon-uniE932:before {
+  content: "\e932";
+}
+
+.icon-uniE933:before {
+  content: "\e933";
+}
+
+.icon-uniE934:before {
+  content: "\e934";
+}
+
+.icon-netchina:before {
+  content: "\e935";
+}
+
+.icon-uniE936:before {
+  content: "\e936";
+}
+
+.icon-CFCA:before {
+  content: "\e937";
+}
+
+.icon-uniE938:before {
+  content: "\e938";
+}
+
+.icon-netchina2:before {
+  content: "\e939";
+}
+
+.icon-uniE93A:before {
+  content: "\e93a";
+}
+
+.icon-CFCA2:before {
+  content: "\e93b";
+}
+
+.icon-uniE93C:before {
+  content: "\e93c";
+}
+
+.icon-uniE93D:before {
+  content: "\e93d";
+}
+
+.icon-uniE93E:before {
+  content: "\e93e";
+}
+
+.icon-uniE93F:before {
+  content: "\e93f";
+}
+
+.icon-uniE940:before {
+  content: "\e940";
+}
+
+.icon-uniE941:before {
+  content: "\e941";
+}
+
+.icon-uniE942:before {
+  content: "\e942";
+}
+
+.icon-uniE943:before {
+  content: "\e943";
+}
+
+.icon-uniE944:before {
+  content: "\e944";
+}
+
+.icon-uniE945:before {
+  content: "\e945";
+}
+
+.icon-uniE946:before {
+  content: "\e946";
+}

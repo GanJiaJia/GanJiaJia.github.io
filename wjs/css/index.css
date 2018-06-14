@@ -1,0 +1,10 @@
+.wjs-header .row>div {
+    border: 1px solid #000;
+    height: 40px;
+    text-align: center;
+}
+
+.wjs-header .row>div a {
+    line-height: 40px;
+    color: gray;
+}

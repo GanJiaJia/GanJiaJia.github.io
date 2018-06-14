@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: block;
+  line-height: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.bdt {
+  border-top: 1px solid #E0E0E0;
+}
+
+.bdb {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.bdr {
+  border-right: 1px solid #E0E0E0;
+}
+
+.bdl {
+  border-left: 1px solid #E0E0E0;
+}
