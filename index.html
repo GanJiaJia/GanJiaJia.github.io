@@ -26,14 +26,22 @@
             fill: currentColor;
             overflow: hidden;
         }
+        .myPdf {
+            white-space: nowrap;
+            position: absolute;
+            left: -18%;
+            margin-top: 6px;
+        }
     </style>
 </head>
 
 <body>
 
     <div class="gt_logo">
-        <a href="https://github.com/GanJiaJia">
-            <img src="image/GitHub.jpg" alt="github头像">
+        <!-- <a href="https://github.com/GanJiaJia"> -->
+        <a href="javascript:window.open('./image/ganjia.pdf')">
+        <img src="image/GitHub.jpg" alt="github头像">
+            <div class="myPdf">个人简历</div>
         </a>
     </div>
 
@@ -177,7 +185,7 @@
 
     </div>
     <div class="text">
-        <p>一年半半全职前端开发经验</p>
+        <p>四年半全职前端开发经验</p>
 
         <p>熟悉自动化,模块化开发之道</p>
 
@@ -622,7 +630,6 @@
                 shadowScale: 0.94
             }
         });
-
 
         autoScreen();
         window.onresize = function() {
